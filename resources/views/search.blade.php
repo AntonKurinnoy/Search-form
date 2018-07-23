@@ -16,14 +16,6 @@
                 </div>
 
                 <div class="form-group row">
-                    <label for="Price" class="col-md-4 col-form-label text-md-right">{{ __('Price') }}</label>
-
-                    <div class="col-md-6">
-                        <input id="Price" type="text" class="form-control" name="Price">
-                    </div>
-                </div>
-
-                <div class="form-group row">
                     <label for="Bedrooms" class="col-md-4 col-form-label text-md-right">{{ __('Bedrooms') }}</label>
 
                     <div class="col-md-6">
@@ -52,6 +44,18 @@
 
                     <div class="col-md-6">
                         <input id="Garages" type="text" class="form-control" name="Garages">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label text-md-right">{{ __('Price') }}</label>
+                    <div class="col-md-3" name="price">
+                        <label for="PriceFrom" class="col-form-label">{{ __('from') }}</label>
+                        <input id="PriceFrom" type="text" class="form-control" name="PriceFrom">
+                    </div>
+                    <div class="col-md-3" name="price">
+                        <label for="PriceTo" class="col-form-label">{{ __('to') }}</label>
+                        <input id="PriceTo" type="text" class="form-control" name="PriceTo">
                     </div>
                 </div>
 

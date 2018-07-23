@@ -1,3 +1,11 @@
 div[name="search"],div[name="result"]{
     margin-top: 20px;
 }
+
+div[name="price"]{
+    display: inline-flex;
+}
+
+div[name="price"] input{
+    margin-left: 5px;
+}
